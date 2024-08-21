@@ -4,7 +4,7 @@ This repository contains the implementation of a Convolutional Neural Network (C
 
 
 # Introduction
-This project leverages a CNN model to predict steering angles in a car driving simulator. The simulator data was transformed and labeled to fit a classification problem with 7 discrete steering options: -60, -30, -15, 0, 15, 30, and 60 degrees. The primary motivation was to later integrate this model with a Deep Q-Network (DQN) for reinforcement learning in a discrete action space.
+This project leverages a CNN model to predict steering angles in [Avis Engine Driving Simulator](https://avisengine.com/). The simulator data was transformed and labeled to fit a classification problem with 7 discrete steering options: -60, -30, -15, 0, 15, 30, and 60 degrees. The primary motivation was to later integrate this model with a Deep Q-Network (DQN) for reinforcement learning in a discrete action space.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -147,7 +147,7 @@ Future work includes:
 
 # Usage
 ### Running the Model
-To start the model and connect it to the simulator:
+To start the model and connect it to the [Avis Engine Driving Simulator](https://avisengine.com/):
 
 1. Ensure the simulator is running and configured as needed.
 2. Run the Supervised.py script:
