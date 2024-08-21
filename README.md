@@ -120,10 +120,12 @@ The model was trained using the dataset in `supervised/images.zip`. Training was
 * Epochs: **50**
 * Batch Size: **32**
 
-Despite the limited data, the CNN performed well, demonstrating good accuracy on the test set.
+Despite the limited data, the CNN performed well, demonstrating good accuracy on the tests.
 
 # Results
 The model achieved high accuracy on the test set, effectively predicting the steering angles based on processed images. The preprocessing steps and simple architecture allowed the model to generalize well despite class imbalances.
+
+[dl_self_driving_car.webm](https://github.com/user-attachments/assets/fc06f4f3-d212-4d64-b22a-6d9c5c72caea)
 
 # Future Work
 Future work includes:
